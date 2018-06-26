@@ -30,8 +30,9 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  #s.source_files = 'OpenQQSDK/Classes/**/*'
+  s.ios.source_files = 'sdkDemo/sdkDemo/libs/TencentOpenAPI.framework/Headers/*.h'
   s.ios.vendored_frameworks = 'sdkDemo/sdkDemo/libs/TencentOpenAPI.framework'
+  s.ios.public_header_files = 'sdkDemo/sdkDemo/libs/TencentOpenAPI.framework/Headers/*.h'
   # s.resource_bundles = {
   #   'OpenQQSDK' => ['OpenQQSDK/Assets/*.png']
   # }
